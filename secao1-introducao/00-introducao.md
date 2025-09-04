@@ -1,6 +1,6 @@
-# Introdução ao curso
+# 1. Introdução ao curso
 
-## O que veremos?
+## 1.1. O que veremos?
 
 - Sistema léxico da linguagem,
 - Objetos nativos e customizados,
@@ -8,8 +8,41 @@
 - Requisições assíncronas,
 - Expressões regulares.
 
-## Este curso está na versão 2.0
+## 1.2. Este curso está na versão 2.0
 
 - Focado no ES6+ (2015+)
 - Desenvolvimento para browser + básico de node
 - Vamos utilizar ferramentas externas como babel e webpack
+
+## 1.3. O que é JavaScript ? 💻
+
+- Interpretada (Não compilada)
+- Tipagem dinâmica fraca
+- Multiparadigma
+- Principal linguagem client-side
+- Pode rodar no servidor com o [Node.js](https://nodejs.org/pt)
+
+## 1.4. Ambiente de hospedagem
+
+|   |    |    |
+|------------------ |--------- |------------------- |
+| Node.js (Server)  | Browser  | Node.js (develop)  |
+
+## 1.5. Versões do JavaScript
+
+|Versão                    |Ano    |
+|------------------------- |------ |
+| ECMA-262 V5              | 2009  |
+| ECMA-202 V6 ES6/ ES2015  | 2015  |
+| ES2016                   | 2016  |
+| ES2017                   | 2017  |
+
+## Ferramentas utilizadas
+
+- [Visual Studio Code](https://code.visualstudio.com/) (Editor de código)
+
+- [Gitbash](https://git-scm.com/downloads) (Terminal)
+
+- [Node.js](https://nodejs.org/pt) (Interpretador)
+
+- [Google Chrome](https://www.google.com/intl/pt-BR/chrome/) (Navegador)
