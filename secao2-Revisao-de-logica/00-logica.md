@@ -1,6 +1,6 @@
-# Revisão de Lógica em JavaScript
+# 1. Revisão de Lógica em JavaScript
 
-## Declaração de Variáveis
+## 1.1. Declaração de Variáveis
 
 ```javascript
 var   // escopo de função, pouco usado atualmente
@@ -8,9 +8,9 @@ let   // escopo de bloco, recomendado para variáveis mutáveis
 const // escopo de bloco, usado para valores imutáveis (não podem ser reatribuídos)
 ```
 
-## Tipos de Dados
+## 1.2. Tipos de Dados
 
-### Primitivos
+### 1.2.1. Primitivos
 
 São imutáveis e armazenados diretamente na memória:
 
@@ -22,7 +22,7 @@ São imutáveis e armazenados diretamente na memória:
 - **String** → texto (`"Olá"`, `'Mundo'`, `Template`)
 - **Symbol** → identificador único (`Symbol('id')`)
 
-### Objetos
+### 1.2.2. Objetos
 
 Coleções de pares chave-valor e estruturas mais complexas:
 
