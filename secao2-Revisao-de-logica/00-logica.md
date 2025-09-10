@@ -31,3 +31,24 @@ Coleções de pares chave-valor e estruturas mais complexas:
 ---
 
 📖 [Leia mais na MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Data_structures)
+
+## 1.3. Operadores
+
+### Arimáticos
+
+- `+` -> Soma
+- `-` -> Subtração
+- `/` -> divisão
+- `*` -> Multiplicação
+- `%` -> Resto da Divisão
+- `**` -> Potenciação
+
+### Atribuição
+
+- `=` → atribuição simples
+- `+=`→ soma e atribui
+- `-=` → subtrai e atribui
+- `*=` → multiplica e atribui
+- `/=`→ divide e atribui
+- `%=` → resto da divisão e atribui
+- `**=` → potência e atribui
