@@ -1,22 +1,26 @@
-console.log(calcularMedia("2", "6"))
+(function () {
+    console.log(calcularMedia(2, 3, 4, 10))
+})()
 
 
 function calcularMedia() {
+    let somaElementos = 0
+    let numElementos = arguments.length
 
-    if (arguments.length === 0) {
+    // se arguments é está vazio
+    if (numElementos === 0) {
         return 0
     }
 
-    let sum = 0
     for (let i in arguments) {
         if (typeof arguments[i] != "number") {
             throw "Error"
         }
 
-        sum += arguments[i]
+        somaElementos += arguments[i]
     }
 
-    let media = sum / arguments.length
+    let media = somaElementos / numElementos
 
     return media
 }
