@@ -1,5 +1,5 @@
 (function () {
-    console.log(calcularMedia(2, 3, 4, 10))
+    console.log(calcularMedia(2, "3", 4, 10))
 })()
 
 
@@ -14,7 +14,7 @@ function calcularMedia() {
 
     for (let i in arguments) {
         if (typeof arguments[i] != "number") {
-            throw "Error"
+            throw Error("Only numbers in parameters")
         }
 
         somaElementos += arguments[i]
