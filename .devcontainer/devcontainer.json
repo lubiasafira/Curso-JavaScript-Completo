@@ -5,7 +5,8 @@
             "extensions": [
                 "esbenp.prettier-vscode",
                 "ritwickdey.LiveServer",
-                "vscode-icons-team.vscode-icons"
+                "vscode-icons-team.vscode-icons",
+                "formulahendry.code-runner"
             ]
         }
     }
